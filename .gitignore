@@ -7,9 +7,8 @@ SECRET.md
 *.pem
 *.key
 
-# 工作空间生成文件（按需保留）
-# workspace/
-# 如果需要保留生成示例，取消上面注释
+# 工作空间生成文件
+workspace/*
 
 # Python
 __pycache__/
