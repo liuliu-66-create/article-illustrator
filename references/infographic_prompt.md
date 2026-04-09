@@ -41,25 +41,27 @@
 
 ### 【字体规范 (Typography Rules)】⚠️ 强制执行
 
-**中文字体**：只能使用**宋体**（SimSun），禁止使用毛笔字体、书法字体、黑体、楷体等其他字体。
+**重要**：图中的所有文字必须看起来是人手画出来的手写风格，禁止使用标准印刷字体。
 
-**英文字体**：只能使用**无衬线字体**（Sans-serif），如 Arial、Helvetica 风格，禁止使用衬线字体、手写体、装饰字体。
+禁止出现：
+- ❌ 宋体、黑体、楷体、圆体等标准印刷字体（看起来像电脑打印的）
+- ❌ Arial、Helvetica 等标准无衬线字体（完美规则的几何形状）
+- ❌ 毛笔字体、书法字体作为正文（可以作为装饰元素）
+- ❌ 任何完美的电脑字体
 
-**禁止字体列表**：
-- ❌ 毛笔字体 / 书法字体 / 艺术字体
-- ❌ 手写体效果（hand-drawn lettering）
-- ❌ 衬线英文字体（Times New Roman 等）
-- ❌ 黑体、楷体、圆体等中文字体
+正确做法：
+- ✅ 所有文字都要呈现手绘、手写效果
+- ✅ 允许不完美、有抖动的线条
+- ✅ 可以用涂鸦方式呈现文字
 
-**Prompt 写法示例**：
+Prompt 写法示例：
 ```
-In the bottom third of the image, include these text elements:
-- Main title "安全审查" in large bold Songti (宋体) Chinese font
-- Subtitle "skill-vetter" in smaller sans-serif English font
-- Description "装任何skill之前先用它审查一遍" in Songti Chinese font
+In the bottom third of the image, include these text elements drawn in hand-drawn style:
+- Main title "AI生图技巧" in large hand-drawn Chinese characters
+- Subtitle "三个关键点" in smaller hand-drawn style
+- Description "点击查看详情" in casual hand-drawn script
 
-IMPORTANT: Use ONLY Songti for Chinese text and Sans-serif for English text. DO NOT use brush fonts, calligraphy fonts, or hand-drawn fonts.
-```
+IMPORTANT: All text must look hand-drawn, never use standard computer fonts.
 
 ### 【视觉元素设计 (Visual Elements)】
 
@@ -88,7 +90,7 @@ IMPORTANT: Use ONLY Songti for Chinese text and Sans-serif for English text. DO 
 负面约束（新增，强制）：
 - 严禁出现任何其他人物画风或人物模板、写实人物、照片人物、3D人物、矢量人物
 - 严禁把人物画成任何已存在的动漫/影视/游戏角色或明显影射其独特造型
-- 严禁使用毛笔字体、书法字体、手写体效果；中文字体只能用宋体，英文字体只能用无衬线字体
+- 严禁使用标准印刷字体（宋体、黑体等）；所有文字必须呈现手绘手写风格
 
 ### 【输出要求 (Output Requirements)】
 
